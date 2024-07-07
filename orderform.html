@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Full Menu</title>
+        <link rel="stylesheet" href="style.css"> 
+    </head>
+  <body>
+    <div id="tabs-top" > 
+        <h1>Full Menu</h1>   
+            <div id="full-menu">
+            <input id="check-01" type="checkbox">
+            <label for="check-01">Classic Caesar Salad | R95</label>
+            <br/>
+            <input id="check-01" type="checkbox">
+            <label for="check-01">Tomatoe Basil Bruschetta | R75</label>
+            <br/>
+            <input id="check-01" type="checkbox">
+            <label for="check-01">Soup of the Day | R80</label>
+            <br/>
+            <input id="check-01" type="checkbox">
+            <label for="check-01">Grilled Chicken & Vegetables | R175</label>
+            <br/>
+            <input id="check-01" type="checkbox">
+            <label for="check-01">Spaghetti Carbonara | R155</label>
+            <br/>
+            <input id="check-01" type="checkbox">
+            <label for="check-01">Margharita Pizza | R140</label>
+            <br/>
+            <input id="check-01" type="checkbox">
+            <label for="check-01">Classic Tiramisu | R80</label>
+            <br/>
+            <input id="check-02" type="checkbox">
+            <label for="check-02">Chocolate Lava Cake | R70</label>
+            <br/>
+            <input id="check-03" type="checkbox">
+            <label for="check-03">Fresh Fruit Tart | R65</label>
+            <br/>
+            <input id="check-04" type="checkbox">
+            <label for="check-04">Classic Lemonade | R45</label>
+            <br/>
+            <input id="check-05" type="checkbox">
+            <label for="check-05">Mojito Mocktail | R50</label>
+            <br/>
+            <input id="check-01" type="checkbox">
+            <label for="check-01">Berry Smoothie | R45</label>
+            <br/>
+            <input id="check-01" type="checkbox">
+            <label for="check-01">Frappe Chino | R45</label>
+            <br/>
+            <input id="check-01" type="checkbox">
+            <label for="check-01">Iced Tea | R35</label>
+            <br/>
+            <input id="check-01" type="checkbox">
+            <label for="check-01">Fries | R50</label>
+            <br/>
+            <input id="check-01" type="checkbox">
+            <label for="check-01">Extra Cheese x 2 | R15</label>
+            <br/>
+            <input id="check-01" type="checkbox">
+            <label for="check-01">Avocado-in season | R20</label>
+            <br/>
+            <input id="check-01" type="checkbox">
+            <label for="check-01">Pineappe-in season | R20</label>
+            <br/>
+            <input id="check-01" type="checkbox">
+            <label for="check-01">Mushrooms-1 serving | R15</label>
+            <br/><br/>
+            <button onclick="document.getElementById('order-form').scrollIntoView();">Order Now<a href="thankyou.html"></a></button>
+            </div>
+        </div>
+        <div id="order-form" style="margin-top: 50px; text-align: center;">
+            <h2>Order Form</h2>
+            <form action="/submit_order" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <br/>
+                <label for="surname">Surname:</label>
+                <input type="text" id="surname" name="surname" required>
+                <br/>
+                <label for="email">Email Address:</label>
+                <input type="text" id="emailaddress" name="emailaddress" required>
+                <br/>
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone" required>
+                <br/>
+                <label for="order-details">Order details / notes:</label>
+                <textarea id="order-details" name="order-details" rows="4" cols="50"></textarea>
+                <br/>
+                <button type="submit">Place Order<a href="thankyou.html"></a></button>     
+            </form>
+    </div>
+      </div>
+  </body>
+  </html>

@@ -1,0 +1,185 @@
+body{
+    background-image: url(images/mealbackground.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+#header img{
+    position: relative;
+    top: 500px;
+    left: 500px;
+    border-radius: 10px;
+}
+
+body h1{
+    text-align: center;
+    padding: 20px;
+    
+}
+
+a:link{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+}
+
+body p{
+    border-style: double;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(110, 110, 110);
+}
+
+
+/*========== TOP-TABS ==========*/
+
+#tabs-top{
+    position: fixed;
+    top     : 80px;
+    left    : 0;
+    z-index : 500;
+    width   : 100%;
+    height  : 50px;
+    background-color: rgb(110, 110, 110);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    padding: 5px;
+}
+
+#tabs-top a{
+    display: block;
+    width: 25%;
+    height  :35px;
+    font-weight : 700;
+    color       : white;
+    text-align  : center;
+    text-decoration : none;
+    line-height: 35px;
+}
+
+#tabs-top img{
+    border-radius: 20px;
+    padding-left: 10px;
+    margin-top: 30px;
+}
+
+#tabs-top p{
+    padding-left: 10px;
+    font-style: italic;
+    font-size: 20px;
+}
+
+#tabs-top h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+#tabs-top h2{
+    margin: 0;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+#middle-content{
+    text-align: center;
+    margin-top: 50px; 
+    width: 60%;
+}
+
+/*============ FULL MENU ============*/
+
+#full-menu {
+    text-align: left;
+    margin-top: 300px;
+    margin-right: 0;
+    width: 30%; 
+    background-color: whitesmoke;
+    padding: 20px;
+    padding-top: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/*============ INFO-BOX ============*/
+
+.meals img{
+    height: 200px;
+    width: 200px;
+    margin: 15px;
+    float: left;
+    object-fit: cover;
+    border-radius: 10px;
+    display: block;
+}
+
+.meals h3{
+    padding: 0;
+    text-indent: 10%;
+    width: 90%;
+    color: white;
+}
+
+.meals h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*========== ORDER FORM ==========*/
+
+#order-form {
+    position: absolute;
+    top: 20%;
+    left: 10px;
+    margin: 50px auto; 
+    width: 30%; 
+    background-color: #f2f2f2; 
+    padding: 20px; 
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);    
+}
+
+#order-form form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#order-form label, #order-form input, #order-form textarea {
+    width: 100%;
+    margin: 5px 5;
+}
+
+/*============ BOTTOM-TABS ============*/
+
+#tabs-bottom{
+    position: fixed;
+    bottom   : 0;
+    left     : 0;
+    z-index  : 500;
+    width    : 100%;
+    height   : 40px;
+    background-color: gray;
+}
+
+#tabs-bottom a{
+   float : left;
+   display : block; 
+   width : 50%;
+   height : 35px;
+   font-weight : 700;
+   color       : white;
+   text-align  : center;
+   text-decoration : none;
+   padding-top: 10px;
+}
+
+.gallery{
+    grid-template-columns: auto;
+    border-radius: 10px;
+    
+}
